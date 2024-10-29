@@ -1,0 +1,346 @@
+/* nucleo-icons Web Font - built using nucleoapp.com */
+@font-face {
+  font-family: 'nucleo-icons';
+  src: url("/assets/fonts/nucleo-icons.eot");
+  src: url("/assets/fonts/nucleo-icons.eot?#iefix") format("embedded-opentype"),
+       url("/assets/fonts/nucleo-icons.woff2") format("woff2"),
+       url("/assets/fonts/nucleo-icons.woff") format("woff"),
+       url("/assets/fonts/nucleo-icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.panel-header-sm {
+  height: 135px; }
+
+.panel-header-lg {
+  height: 380px; }
+
+.footer {
+  padding: 24px 0; }
+  .footer.footer-default {
+    background-color: #f2f2f2; }
+  .footer nav {
+    display: inline-block;
+    /* float: left; */
+    padding-left: 0; }
+  .footer ul {
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none; }
+    .footer ul li {
+      display: inline-block; }
+      .footer ul li a {
+        color: inherit;
+        padding: 0.5rem;
+        font-size: 0.8571em;
+        text-transform: uppercase;
+        text-decoration: none; }
+        .footer ul li a:hover {
+          text-decoration: none; }
+  .footer .copyright {
+    font-size: 0.8571em;
+    line-height: 1.8; }
+  .footer:after {
+    display: table;
+    clear: both;
+    content: " "; }
+ 
+.card-user .button-container {
+  margin-bottom: 6px;
+  text-align: center; }
+
+@media screen and (min-width: 768px) {
+  .footer .footer-nav {
+    padding-left: 21px; }
+  .footer .credits {
+    padding-right: 15px; } }
+
+                               /* Estilos Agregados */
+
+/* Carrusel */
+  .custom-carousel .carousel-item img {
+    height: 300px;  /* Ajusta la altura según tus necesidades */
+    object-fit: cover;  
+  }
+  
+  .custom-carousel .carousel-inner {
+    height: 300px;  /* Ajusta la altura del contenedor del carrusel */
+  }
+
+/* Animaciones de los medicamentos */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .card-animation {
+    animation: fadeInUp 0.8s ease-in-out;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-animation:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .custom-button {
+    background-color: #19037f; /* Color inicial del botón (azul por defecto) */
+    border: none;
+    transition: background-color 0.3s ease; /* Transición suave */
+  }
+
+  .custom-button:hover {
+      background-color: #3000b3; /* Color al pasar el mouse (hover) */
+  }
+
+  /* ESTILOS DEL LOGIN */
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.login-container {
+  background-image: url(/src//assets/medico.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  color: rgb(12, 10, 10); 
+  text-align: center; 
+}
+.container{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    position: relative;
+    background-color: rgb(248, 249, 249);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(0, 0,0,0.3)
+}
+.container-form{
+    width: 100%;
+    overflow: hidden;
+}
+.container-form form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in;
+}
+.container-form h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.social-networks{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+.social-networks ion-icon{
+    border: 1px solid #C9CCCB;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+}
+.container-form span{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+/* INPUT DEL LOGIN  Y REGISTRO */
+.container-input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 0 15px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Animación al enfocar el input */
+.container-input:hover,
+.container-input:focus-within {
+  background-color: #14059e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al hacer focus */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+.hover-blue:hover {
+  border-color: #14059e !important;
+}
+
+.container-input.error:hover,
+.container-input.error:focus-within {
+  background-color: transparent; /* Cambia el color de fondo al hover si hay error */
+  box-shadow: none; /* Elimina la sombra */
+  transform: none; /* Elimina el efecto de escala */
+}
+
+.container-input.error .form-control {
+  border-color: red !important; /* Cambia el color del borde a rojo */
+}
+
+
+
+.container-input input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    font-size: 16px;
+    color: #333;
+}
+.container-input input:focus {
+  background-color: #ffffff;
+  color: #000;
+  font-weight: bold;
+}
+.container-form a{
+    color: black;
+    font-size:  14px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.button{
+    width: 170px;
+    height: 45px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;  
+    background-color: #0926b9;  
+    color: white;
+    padding: 5px 10px; /* Reduce el espacio interno del botón */
+    font-size: 12px;   /* Disminuye el tamaño del texto */
+    width: auto;       /* Ajusta el ancho automáticamente al contenido */
+}
+.button-container {
+  display: flex;
+  gap: 10px; /* Espacio entre botones */
+}
+
+
+/*Animation form*/
+
+.sign-up{
+    transform: translateX(-100%);
+}
+.container.toggle .sign-in{
+    transform: translateX(100%);
+}
+.container.toggle .sign-up{
+    transform: translateX(0);
+}
+
+/*Welcome*/
+.container-welcome{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transform: translateX(100%);
+    background-color: #0125a7;
+    transition: transform 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+    overflow: hidden;
+    border-radius: 50% 0 0 50%;
+}
+.container.toggle .container-welcome{
+    transform: translateX(0);
+    border-radius: 0 50% 50% 0;
+    background-color: #001c81;
+}
+.container-welcome .welcome{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 50px;
+    color: white;
+    transition: transform 0.5s ease-in-out;
+}
+.welcome-sign-in{
+    transform: translateX(100%);
+}
+.container-welcome h3{
+    font-size: 40px;
+}
+.container-welcome p{
+    font-size: 14px;
+    text-align: center;
+}
+.container-welcome .button{
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.container.toggle .welcome-sign-in{
+    transform: translateX(0);
+}
+.container.toggle .welcome-sign-up{
+    transform: translateX(-100%);
+}
+
+
+/*COMPONENTE OLIVIDASTE CONTRASEÑA */
+.background {
+  background-image: url(/src//assets/medico.png); /* Fondo aleatorio */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-form-olvidaste {
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px; /* Ancho máximo del formulario */
+  width: 90%; /* Ancho responsivo */
+}
+
+.custom-input {
+  width: 100%; /* Asegura que el input ocupe el 100% del contenedor */
+  height: 40px; /* Ajusta la altura del input */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ced4da; /* Borde similar al de Bootstrap */
+  border-radius: 5px; /* Esquinas redondeadas */
+  background-color: #ffffff; /* Fondo blanco */
+  transition: border-color 0.3s; /* Transición suave para el borde */
+}
+
+/* Estilo al enfocar el input */
+.custom-input:focus {
+  border-color: #e7e6ec; /* Color de borde al enfocar */
+  outline: none; /* Quitar el outline predeterminado */
+}

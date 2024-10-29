@@ -1,0 +1,14 @@
+/* Inicio.css */
+.content {
+    background-color: #f0f8ff; /* Color de fondo (puedes cambiarlo según tu preferencia) */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+  
+  h1 {
+    color: #333; /* Color del texto (puedes cambiarlo según tu preferencia) */
+    font-size: 2.5em; /* Tamaño del texto */
+  }
+  
