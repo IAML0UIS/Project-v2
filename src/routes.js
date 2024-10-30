@@ -51,8 +51,8 @@ const routes = [
     layout: "/inicio",
   },
   {
-    path: "/emergencia",
-    name: "emergencia",
+    path: "/Reconocimiento",
+    name: "Reconocimento",
     icon: "nc-icon nc-ambulance",
     component: Emergencia,
     layout: "/inicio",

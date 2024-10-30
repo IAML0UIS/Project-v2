@@ -3,30 +3,30 @@ import { MagicMotion } from "react-magic-motion";
 
 // Lista de medicamentos de prueba
 const medicamentos = [
-  { id: 1, title: "Acetaminofén", imgSrc: "https://via.placeholder.com/150?text=Acetaminofén" },
-  { id: 2, title: "Ibuprofeno", imgSrc: "https://via.placeholder.com/150?text=Ibuprofeno" },
-  { id: 3, title: "Paracetamol", imgSrc: "https://via.placeholder.com/150?text=Paracetamol" },
-  { id: 4, title: "Aspirina", imgSrc: "https://via.placeholder.com/150?text=Aspirina" },
-  { id: 5, title: "Naproxeno", imgSrc: "https://via.placeholder.com/150?text=Naproxeno" },
-  { id: 6, title: "Amoxicilina", imgSrc: "https://via.placeholder.com/150?text=Amoxicilina" },
-  { id: 7, title: "Cefalexina", imgSrc: "https://via.placeholder.com/150?text=Cefalexina" },
-  { id: 8, title: "Clindamicina", imgSrc: "https://via.placeholder.com/150?text=Clindamicina" },
-  { id: 9, title: "Diclofenaco", imgSrc: "https://via.placeholder.com/150?text=Diclofenaco" },
-  { id: 10, title: "Cetirizina", imgSrc: "https://via.placeholder.com/150?text=Cetirizina" },
-  { id: 11, title: "Loratradina", imgSrc: "https://via.placeholder.com/150?text=Loratradina" },
-  { id: 12, title: "Metformina", imgSrc: "https://via.placeholder.com/150?text=Metformina" },
-  { id: 13, title: "Simvastatina", imgSrc: "https://via.placeholder.com/150?text=Simvastatina" },
-  { id: 14, title: "Losartán", imgSrc: "https://via.placeholder.com/150?text=Losartán" },
-  { id: 15, title: "Omeprazol", imgSrc: "https://via.placeholder.com/150?text=Omeprazol" },
-  { id: 16, title: "Ranitidina", imgSrc: "https://via.placeholder.com/150?text=Ranitidina" },
-  { id: 17, title: "Furosemida", imgSrc: "https://via.placeholder.com/150?text=Furosemida" },
-  { id: 18, title: "Atorvastatina", imgSrc: "https://via.placeholder.com/150?text=Atorvastatina" },
-  { id: 19, title: "Dextrometorfano", imgSrc: "https://via.placeholder.com/150?text=Dextrometorfano" },
-  { id: 20, title: "Codeína", imgSrc: "https://via.placeholder.com/150?text=Codeína" },
-  { id: 21, title: "Tramadol", imgSrc: "https://via.placeholder.com/150?text=Tramadol" },
-  { id: 22, title: "Glibenclamida", imgSrc: "https://via.placeholder.com/150?text=Glibenclamida" },
-  { id: 23, title: "Amlodipino", imgSrc: "https://via.placeholder.com/150?text=Amlodipino" },
-  { id: 24, title: "Clonazepam", imgSrc: "https://via.placeholder.com/150?text=Clonazepam" },
+  { id: 1, title: "Acetaminofén", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYzSmbn4XZ_B_saQ9ifUtuRtDTK6qVh_3_NA&s" },
+  { id: 2, title: "Ibuprofeno", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZsoqNzAIawz68QXOPQUiLncTS71tY9LJHjg&s" },
+  { id: 3, title: "Paracetamol", imgSrc: "https://w7.pngwing.com/pngs/719/485/png-transparent-acetaminophen-ache-pharmaceutical-drug-fever-grindeks-tablet-electronics-pharmaceutical-drug-gel-thumbnail.png" },
+  { id: 4, title: "Aspirina", imgSrc: "https://www.aspirina.com.mx/sites/g/files/vrxlpx53376/files/2024-05/ASPIRINA%20500%20mg%2020%20TABL%20frente.png" },
+  { id: 5, title: "Naproxeno", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGG9PPJAD7YBWR9EOSspM9vjLwiYuzTgJdjQ&s" },
+  { id: 6, title: "Amoxicilina", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJG4IoIiORa8Z_BFRfYNNYmBwQbiyiYxbOmQ&s" },
+  { id: 7, title: "Cefalexina", imgSrc: "https://locatelcolombia.vtexassets.com/arquivos/ids/230127/7702605100613_1_GENFAR-CEFALEXINA-500MG-CAJA-X-10-CAPSULAS.jpg?v=637329333058630000" },
+  { id: 8, title: "Clindamicina", imgSrc: "https://santarosadroguerias.vtexassets.com/arquivos/ids/159700/b_7705959012939-7.jpg?v=637732936436270000" },
+  { id: 9, title: "Diclofenaco", imgSrc: "https://copservir.vtexassets.com/arquivos/ids/1400454/DICLOFENACO-75-MG-GENFAR_L.png?v=638567969805430000" },
+  { id: 10, title: "Cetirizina", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt2nJYcLISARITKg_dTJQZAJ195ChhNpn4Dw&s" },
+  { id: 11, title: "Loratradina", imgSrc: "https://copservir.vtexassets.com/arquivos/ids/1253938/LORATADINA-10-MG--GENFAR-_L.png?v=638455311667030000" },
+  { id: 12, title: "Metformina", imgSrc: "https://drogueriasunoa.com/cdn/shop/files/imagen_e0749b60-1779-4b22-85fb-5685de191574.png?v=1718999559" },
+  { id: 13, title: "Simvastatina", imgSrc: "https://copservir.vtexassets.com/arquivos/ids/1469647/SIMVASTATINA-20-MG--GENFAR-_F.png?v=638644153905230000" },
+  { id: 14, title: "Losartán", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhNfVq8xLWh57cnnpUNx3WILMBhOkuFV6LCw&s" },
+  { id: 15, title: "Omeprazol", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiwlHIlw7QbQzKLj0roO5_uJrubkAbocfZkg&s" },
+  { id: 16, title: "Ranitidina", imgSrc: "https://www.unimarksa.com/sites/default/files/imgproductos/ranitidina-100cap.png" },
+  { id: 17, title: "Furosemida", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL-hfMURuYnTz0sYKzDsaDF0jS9_NZR4lr7Q&s" },
+  { id: 18, title: "Atorvastatina", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq6zxjvIiBBix01BhUCZNxHG8kL18AI1d_JA&s" },
+  { id: 19, title: "Dextrometorfano", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbG2CuL4lx0PGWO2hGeVdxCuvAyEIKmy4GJw&s" },
+  { id: 20, title: "Codeína", imgSrc: "https://copservir.vtexassets.com/arquivos/ids/1258479/ACETAMINOFEN-CODEINA-325-30_F.png?v=638457061062600000" },
+  { id: 21, title: "Tramadol", imgSrc: "https://locatelcolombia.vtexassets.com/arquivos/ids/366517/7702605111411_1_Tramadol-Genfar-Solucion-Inyectable-Ampolleta-100mg--2ml-X5.png?v=638455291807730000" },
+  { id: 22, title: "Glibenclamida", imgSrc: "https://drogueriasantamaria.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzkwOTg3LCJwdXIiOiJibG9iX2lkIn19--7dafbda1ce23de7e447bbdf587975f02e07ba51a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--cef66509c9cdc75663c0eefd9421db1d2ea4fead/nueva-imagen%20-%202022-08-01T121439.590.png?locale=es" },
+  { id: 23, title: "Amlodipino", imgSrc: "https://copservir.vtexassets.com/arquivos/ids/1467775/AMLODIPINO-5-MG--GENFAR-_L.png?v=638641369240770000" },
+  { id: 24, title: "Clonazepam", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8_BGw0kRPEF4SA9we9sXAxv1cZj8FietyUg&s" },
   { id: 25, title: "Alprazolam", imgSrc: "https://via.placeholder.com/150?text=Alprazolam" },
   { id: 26, title: "Sertralina", imgSrc: "https://via.placeholder.com/150?text=Sertralina" },
   { id: 27, title: "Fluoxetina", imgSrc: "https://via.placeholder.com/150?text=Fluoxetina" },
@@ -53,13 +53,13 @@ function Medicamento({ title, imgSrc }) {
         display: "flex", // Flexbox
         flexDirection: "column", // Dirección de los elementos
         gap: "1rem", // Espacio entre los elementos
-        backgroundColor: "rgba(,36, 10, 70 0.9)", // Fondo morado oscuro con algo de transparencia
+        backgroundColor: "#A4C8E1", // Fondo morado oscuro con algo de transparencia
         borderRadius: "8px", // Bordes redondeados
         transition: "transform 0.3s, box-shadow 0.1s", // Transiciones suaves
       }}
       onMouseEnter={(e) => {
         e.currentTarget.style.transform = "scale(1.05)"; // Efecto hover
-        e.currentTarget.style.boxShadow = "0 0 20px rgba(0, 122, 255, 0.9)"; // Sombra azul brillante
+        e.currentTarget.style.boxShadow = "0 0 30px #4682B4"; // Sombra azul brillante
       }}
       onMouseLeave={(e) => {
         e.currentTarget.style.transform = "scale(1)"; // Restablece al tamaño original
@@ -95,7 +95,7 @@ export const Medicamentos = () => {
     <div
       style={{
         minHeight: "100vh", // Asegura que el fondo cubra toda la pantalla
-        backgroundColor: "rgba(34, 0, 68, 0.9)", // Fondo morado oscuro con algo de transparencia
+        backgroundColor: "#FFFFFF", // Fondo morado oscuro con algo de transparencia
         padding: "2rem 0", // Espacio interno superior e inferior
         display: "flex",
         flexDirection: "column",

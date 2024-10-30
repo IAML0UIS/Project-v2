@@ -24,7 +24,7 @@ export const Asistente = () => {
   };
 
   return (
-    <div className='container'>
+    <div className='contenedores'>
       <h1>Asistente</h1>
       <input
         type="text"

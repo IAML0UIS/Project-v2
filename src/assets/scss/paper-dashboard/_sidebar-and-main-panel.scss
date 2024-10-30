@@ -237,7 +237,7 @@
         left: 0;
     }
 
-            $blue-color: #651184; // Color azul que quieres usar
+            $blue-color: #0D47A1; // Color azul que quieres usar
 
         &:after {
         @include icon-gradient($blue-color); // Cambia el gradiente al azul

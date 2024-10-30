@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, CardTitle, Card, CardHeader, CardBody, FormGroup, Form, Row, Input, Button } from "reactstrap";
 import { useForm } from '../variables/useForm';
 import axios from 'axios';
+import './asistente.css'; // Asegúrate de que la ruta sea correcta
 
 const recordatorioM = {
   fecha: '',
@@ -63,7 +64,7 @@ export const Recordatorio = () => {
   };
 
   return (
-    <div className='content'>
+    <div className='contendiente'>
       <Col md="12">
         <Card className="card-user">
           <CardHeader>
@@ -126,6 +127,18 @@ export const Recordatorio = () => {
                       <option value="Acetaminofén">Acetaminofén</option>
                       <option value="Ibuprofeno">Ibuprofeno</option>
                       <option value="Aspirina">Aspirina</option>
+                      <option value="Acetaminofén">Paracetamol</option>
+                      <option value="Ibuprofeno">Naproxeno</option>
+                      <option value="Aspirina">Amoxicilina</option>
+                      <option value="Acetaminofén">Diclofenaco</option>
+                      <option value="Ibuprofeno">Loratadina</option>
+                      <option value="Aspirina">Omeprazol</option>
+                      <option value="Aspirina">Clonazepan</option>
+                      <option value="Acetaminofén">Codeina</option>
+                      <option value="Ibuprofeno">Furosemida</option>
+                      <option value="Aspirina">Tramadol</option>
+                      
+
                       {/* Agrega más medicamentos según sea necesario */}
                     </Input>
                   </FormGroup>

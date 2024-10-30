@@ -12,19 +12,19 @@ export const Footer = (props) => {
             <ul>
               <li>
                 <a href="#" target="_blank">
-                  VitalSave
+                  
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank">
-                  Creador: Luis - Dev.
+                  
                 </a>
               </li>
             </ul>
           </nav>
           <div className="credits ml-auto">
             <div className="copyright">
-              &copy; {1900 + new Date().getYear()}, EL MEJOR{" "}
+              &copy; {1900 + new Date().getYear()},
               <i className="fa fa-heart heart" />
             </div>
           </div>

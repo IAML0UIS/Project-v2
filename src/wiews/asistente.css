@@ -7,17 +7,22 @@ body {
   }
   
   /* Fondo morado oscuro y centrado */
-  .container {
+  .contenedores {
     margin-top: 15%;
+    margin-left: 10%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 40vh;
-    background-color: #34005c; /* Color morado oscuro */
-    color: white;
+    height: 70vh;
+    background-color: #A4C8E1; /* Color morado oscuro */
+    color: #FFFF;
     text-align: center;
     animation: fadeIn 1s ease-in;
+    border-radius: 15px;
+    
+    
   }
   
   /* Estilo del input */
@@ -30,12 +35,14 @@ body {
     width: 80%;
     max-width: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: #bde22b;
+    border: "3px solid #ccc";
   }
   
   /* Estilo del botón */
   button {
     padding: 10px 20px;
-    background-color: #8A2BE2; /* Color del botón */
+    background-color: #2b2ee2; /* Color del botón */
     border: none;
     border-radius: 5px;
     color: white;
@@ -45,7 +52,7 @@ body {
   
   /* Efecto de hover en el botón */
   button:hover {
-    background-color: #7B68EE;
+    background-color: #e6230a;
   }
   
   /* Estilo del texto de respuesta */
@@ -64,3 +71,20 @@ body {
     }
   }
   
+  .contendiente{
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background-color: #14e753; /* Color morado oscuro */
+    color: rgb(203, 24, 24);
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+  }
+  .titulo{
+    background-color: #14e753;
+  }
